@@ -1,3 +1,57 @@
-div {
-  background-color: black;
+@font-face {
+  font-family: 'Cantarell';
+  src: url('http://localhost:8080/src/fonts/Cantarell-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 160px;
+  background: url(http://localhost:8080/src/images/header_1280x160.png);
+  border-bottom: 15px solid #284b51;
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 100%;
+
+    #nav-logo {
+      width: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    #nav-center {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      span {
+        margin: 15px 0px;
+        text-align: center;
+        color: #e9eae5;
+        font-size: 24px;
+        font-family: "Cantarell", Calibri;
+      }
+    }
+
+    #nav-social {
+      width: 25%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+      .social-link {
+        width: 60px;
+      }
+    }
+  }
 }
