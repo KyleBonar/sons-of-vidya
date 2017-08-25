@@ -2,10 +2,13 @@ import React, { Component } from "react";
 
 class Content extends Component {
   render() {
+    const Stripes = require("../../images/stripes.png");
     return (
       <div className="content">
         <span className="banner-upper text-center text-upper">Modern Sons</span>
-        <span className="banner-center text-center">for</span>
+        <span className="banner-center text-center">
+          <img src={Stripes} />with<img src={Stripes} />
+        </span>
         <span className="banner-bottom text-center">Old Fashioned Funs</span>
       </div>
     );
