@@ -1,7 +1,7 @@
 .banner-home {
   background-image: url(http://localhost:8080/src/images/banner.jpg);
   background-size: cover;
-  height: 550px;
+  height: 600px;
   background-position: center;
   display: flex;
   flex-direction: row;
@@ -12,14 +12,35 @@
     color: $textSecondary;
     display: flex;
     flex-direction: column;
-    font-size: 20px;
-    
-    .banner-upper {
+    text-shadow: 2px 2px 2px #333;
+    font-family: $fontPrimary;
+    line-height: 1;
 
+    span {
+      margin: 6px 0px;
+    }
+
+    .banner-upper {
+      font-size: 64px;
+      font-weight: 700;
+    }
+
+    .banner-center {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-style: italic;
+
+      img {
+        margin: 10px 10px 0px;
+      }
     }
 
     .banner-bottom {
       font-family: $fontFancy;
+      font-size: 64px;
     }
   }
 }
