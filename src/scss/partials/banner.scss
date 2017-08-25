@@ -35,6 +35,10 @@
 
       img {
         margin: 10px 10px 0px;
+
+        + img {
+          margin: 10px 10px 0px 15px;
+        }
       }
     }
 
