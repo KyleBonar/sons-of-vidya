@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ThirstyScript';
+  src: url('http://localhost:8080/src/fonts/ThirstyScriptMedium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 div.text-upper,
 span.text-upper {
   text-transform: uppercase;
@@ -24,11 +31,12 @@ span.text-center {
 
 // Variables
 $contarell: "Cantarell", Calibri;
-$marketing: "Marketing", Calibri;
+$marketing: "Marketing", Cursive;
+$thirstyScript: "ThirstyScript", Cursive;
 $offBlack: #333;
 $offWhite: #e9eae5;
 
 $fontPrimary: $contarell;
-$fontFancy: $marketing;
+$fontFancy: $thirstyScript;
 $textPrimary: $offBlack;
 $textSecondary: $offWhite;
