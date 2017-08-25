@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Cantarell';
+  src: url('http://localhost:8080/src/fonts/Cantarell-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Marketing';
+  src: url('http://localhost:8080/src/fonts/MarketingScript.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+div.text-upper,
+span.text-upper {
+  text-transform: uppercase;
+}
+
+div.text-center,
+span.text-center {
+  text-align: center;
+}
+
+// Variables
+$contarell: "Cantarell", Calibri;
+$marketing: "Marketing", Calibri;
+$offBlack: #333;
+$offWhite: #e9eae5;
+
+$fontPrimary: $contarell;
+$fontFancy: $marketing;
+$textPrimary: $offBlack;
+$textSecondary: $offWhite;
