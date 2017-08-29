@@ -3,8 +3,10 @@ header {
   flex-direction: row;
   justify-content: center;
   height: 160px;
-  background: url(http://localhost:8080/src/images/header_1280x160.png);
-  border-bottom: 15px solid #284b51;
+  // background: url(http://localhost:8080/src/images/header_1280x160.png);
+  background: url(http://localhost:8080/src/images/header_v2.png);
+  background-color: $tealDark;
+  border-bottom: 15px solid $tealDark;
 
   .header-container {
     display: flex;
