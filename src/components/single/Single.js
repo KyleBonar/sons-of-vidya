@@ -23,23 +23,25 @@ class Single extends Component {
           <img src={star} className="star" />
           <img src={star} className="star" />
           <img src={star} className="star" />
-          <span className="title">Featured Video</span>
+          <span className="title">Featured Videos</span>
           <img src={star} className="star" />
           <img src={star} className="star" />
           <img src={star} className="star" />
         </div>
         <div className="content">
-          <div className="description-holder">
-            <div className="video-title">Laughin' and Clappin'</div>
-            <a href="https://www.youtube.com/user/SonsOfVidya" target="_blank">
-              Subscribe on Youtube
-            </a>
-            <a href="https://www.patreon.com/sonsofvidya" target="_blank">
-              Become A Patron
-            </a>
+          <div className="latest-holder">
+            <span>Sons' Pick</span>
+            <div className="video-holder">
+              <iframe
+                id="ytplayer"
+                type="text/html"
+                src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&origin=http://example.com"
+                frameborder="0"
+              />
+            </div>
           </div>
           <div className="latest-holder">
-            <span>Latest Video</span>
+            <span>Latest</span>
             <div className="video-holder">
               <iframe
                 id="ytplayer"
