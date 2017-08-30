@@ -7,3 +7,7 @@ body {
   background-color: $offWhite;
   margin-bottom: 500px;
 }
+
+.container {
+  max-width: $maxWidth;
+}
