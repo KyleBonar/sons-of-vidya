@@ -1,0 +1,43 @@
+#blocks {
+  width: 100%;
+  box-shadow: 0 5px 7px 0 hsla(216,3%,66%,.55), 0 -5px 7px 0 hsla(216,3%,66%,.55);
+
+  .block-row {
+    &-teal {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background: url(http://localhost:8080/src/images/panal_teal_500x280.png);
+      background-color: $tealDark;
+      .middle {
+        background: url(http://localhost:8080/src/images/panal_orange_500x280.png);
+        background-color: $orangeDark;
+      }
+    }
+    &-orange {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background: url(http://localhost:8080/src/images/panal_orange_500x280.png);
+      background-color: $orangeDark;
+      .middle {
+        background: url(http://localhost:8080/src/images/panal_teal_500x280.png);
+        background-color: $tealDark;
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .block {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      padding: 25px 15px;
+    }
+  }
+}
