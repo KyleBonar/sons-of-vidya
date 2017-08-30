@@ -55,7 +55,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <div className="header-container">
+        <div className="header container">
           <Logo />
 
           <NavCenter />

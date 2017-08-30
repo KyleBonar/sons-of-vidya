@@ -28,7 +28,7 @@ class Single extends Component {
           <img src={star} className="star" />
           <img src={star} className="star" />
         </div>
-        <div className="content">
+        <div className="content container">
           <div className="latest-holder">
             <span>Sons' Pick</span>
             <div className="video-holder">
