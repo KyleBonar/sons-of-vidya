@@ -8,11 +8,10 @@ header {
   background-color: $tealDark;
   border-bottom: 15px solid $tealDark;
 
-  .header-container {
+  .header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: $maxWidth;
     max-height: 100%;
 
     #nav-logo {

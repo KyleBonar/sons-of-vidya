@@ -24,7 +24,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    max-width: $maxWidth;
     width: 100%;
 
     .description-holder {
@@ -81,6 +80,9 @@
 
         iframe {
           border: 0px;
+          width: 100%;
+          height: 30vw;
+          max-height: 480px;
         }
       }
     }
