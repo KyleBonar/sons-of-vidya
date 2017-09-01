@@ -1,6 +1,8 @@
 #blocks {
   width: 100%;
-  box-shadow: 0 5px 7px 0 hsla(216,3%,66%,.55), 0 -5px 7px 0 hsla(216,3%,66%,.55);
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.35), 0 -5px 7px 0 rgba(0, 0, 0, 0.35);
+  color: $textSecondary;
+  font-size: 40px;
 
   .block-row {
     &-teal {
@@ -38,6 +40,14 @@
       display: flex;
       justify-content: center;
       padding: 25px 15px;
+
+      .the-difference {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 }
