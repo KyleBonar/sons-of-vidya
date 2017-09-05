@@ -20,21 +20,25 @@
 }
 
 div.text-upper,
-span.text-upper {
+span.text-upper,
+p.text-upper {
   text-transform: uppercase;
 }
 
 div.text-center,
-span.text-center {
+span.text-center,
+p.text-center {
   text-align: center;
 }
 
-div.fontPrimary,
-span.fontPrimary {
+div.font-primary,
+span.font-primary,
+p.font-primary {
   font-family: $fontPrimary;
 }
 
-div.fontFancy,
-span.fontFancy {
+div.font-fancy,
+span.font-fancy,
+p.font-fancy {
   font-family: $fontFancy;
 }
