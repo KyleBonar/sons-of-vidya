@@ -19,7 +19,7 @@ class Featured extends Component {
 
   render() {
     return (
-      <section id="single">
+      <section id="featured">
         <SectionTitles title="Featured Videos" />
         <div className="content container">
           <div className="latest-holder">
