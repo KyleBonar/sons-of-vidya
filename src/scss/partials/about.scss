@@ -1,0 +1,19 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0px;
+
+  .description {
+    max-width: 1000px;
+    color: $offBlack;
+    font-size: 20px;
+  }
+  
+  .button-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
