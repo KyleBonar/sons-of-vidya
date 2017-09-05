@@ -12,8 +12,8 @@ class Row1 extends Component {
           </div>
           <div className="block middle">
             <div className="the-difference">
-              <span className="fontFancy">What is the</span>
-              <span className="fontPrimary">Sons of Vidya Difference</span>
+              <span className="font-fancy">What is the</span>
+              <span className="font-primary">Sons of Vidya Difference</span>
             </div>
           </div>
           <div className="block">
