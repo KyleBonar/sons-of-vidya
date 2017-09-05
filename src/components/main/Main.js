@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
-import Header from "../header/Header";
+import About from "../about/About";
 import Banner from "../banner/Banner";
-import Single from "../single/Single";
 import Blocks from "../blocks/Blocks";
+import Header from "../header/Header";
+import Featured from "../featured/Featured";
 
 class Main extends Component {
   render() {
@@ -11,8 +12,9 @@ class Main extends Component {
       <div>
         <Header />
         <Banner />
-        <Single />
+        <About />
         <Blocks />
+        <Featured />
       </div>
     );
   }
