@@ -23,7 +23,7 @@ class About extends Component {
               text="Subscribe on Youtube"
             />
             <Button
-              href="https://www.patreon.com/sonsofvidya"
+              link="https://www.patreon.com/sonsofvidya"
               text="Become a Patron"
             />
           </div>
