@@ -29,7 +29,7 @@ class Featured extends Component {
                 id="ytplayer"
                 type="text/html"
                 src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&origin=http://example.com"
-                frameborder="0"
+                frameBorder="0"
               />
             </div>
           </div>
@@ -40,7 +40,7 @@ class Featured extends Component {
                 id="ytplayer"
                 type="text/html"
                 src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&origin=http://example.com"
-                frameborder="0"
+                frameBorder="0"
               />
             </div>
           </div>
