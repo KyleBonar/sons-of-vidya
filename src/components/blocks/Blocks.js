@@ -29,6 +29,7 @@ class Row2 extends Component {
   render() {
     const oneShop = require("../../images/badge_one_shop_250x250.png");
     const owned = require("../../images/badge_owned_250x250.png");
+    const masterCertified = require("../../images/badge_master_certified_250x250.png");
     return (
       <div className="block-row-orange">
         <div className="container">
@@ -39,7 +40,7 @@ class Row2 extends Component {
             <img src={owned} />
           </div>
           <div className="block">
-            <img src="http://localhost:8080/src/images/badge_quality_250x250.png" />
+            <img src={masterCertified} />
           </div>
         </div>
       </div>
