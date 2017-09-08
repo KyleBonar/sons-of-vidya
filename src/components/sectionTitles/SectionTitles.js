@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class SectionTitles extends Component {
   render() {
@@ -16,5 +17,8 @@ class SectionTitles extends Component {
     );
   }
 }
+SectionTitles.propTypes = {
+  title: PropTypes.string.isRequired
+};
 
 module.exports = SectionTitles;
