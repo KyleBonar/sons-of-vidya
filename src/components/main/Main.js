@@ -5,6 +5,7 @@ import Banner from "../banner/Banner";
 import Blocks from "../blocks/Blocks";
 import Header from "../header/Header";
 import Featured from "../featured/Featured";
+import Playlist from "../playlist/Playlist";
 
 class Main extends Component {
   render() {
@@ -15,6 +16,7 @@ class Main extends Component {
         <About />
         <Blocks />
         <Featured />
+        <Playlist />
       </div>
     );
   }
