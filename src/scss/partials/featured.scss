@@ -12,34 +12,6 @@
     justify-content: space-around;
     width: 100%;
 
-    .description-holder {
-      width: 40%;
-      padding: 15px;
-      font-family: $contarell;
-
-      div {
-        font-size: 24px;
-        color: $offBlack;
-        font-weight: 700;
-        text-transform: uppercase;
-        margin-bottom: 18px;
-      }
-
-      a {
-        padding: 15px 10px;
-        background-color: $teal;
-        color: $offWhite;
-        display: inline-block;
-        font-size: 18px;
-        text-decoration: none;
-        text-transform: uppercase;
-
-        + a {
-          margin-left: 18px;
-        }
-      }
-    }
-
     .latest-holder {
       padding: 15px;
       display: flex;
