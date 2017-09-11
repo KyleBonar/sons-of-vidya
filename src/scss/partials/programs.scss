@@ -1,0 +1,46 @@
+#programs {
+  display: flex;
+  width: 100%;
+  color: $lightTan;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.35), 0 -5px 7px 0 rgba(0, 0, 0, 0.35);
+  text-align: center;
+
+  #referrals {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: url(http://localhost:8080/src/images/panal_teal_500x280.png);
+    background-color: $tealDark;
+    
+  }
+
+  #rewards {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: url(http://localhost:8080/src/images/panal_orange_500x280.png);
+    background-color: $orangeDark;
+  }
+
+  .programContainer {
+    margin: 35px 10%;
+
+    p {
+      margin: 0px 0px;
+
+      &.title {
+        font-size: 30px;
+      }
+
+      &.program {
+        font-size: 25px;
+      }
+
+      &.description {
+        font-size: 15px;
+      }
+    }
+  }
+}
