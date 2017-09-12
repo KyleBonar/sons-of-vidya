@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import SectionTitles from "../sectionTitles/SectionTitles";
 import PlaylistItems from "./PlaylistItems";
+import Button from "../button/Button";
 
 class Item extends Component {
   render() {
@@ -30,7 +31,12 @@ class Playlist extends Component {
               key={index}
             />
           ))}
+          <Button
+            link="https://www.youtube.com/user/SonsOfVidya/playlists"
+            text="See All Playlists"
+          />
         </div>
+        <div className="extra" />
       </section>
     );
   }
