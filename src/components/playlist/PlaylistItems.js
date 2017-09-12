@@ -16,5 +16,23 @@ module.exports = [
     img: require("../../images/playlist_goldenGlovesBoxing_600x300.jpg"),
     link:
       "https://www.youtube.com/watch?v=eAD_ntyorA4&list=PL575FF5508EC239FD&index=8"
+  },
+  {
+    title: "The Sons Play Overwatch",
+    img: require("../../images/playlist_overwatch_600x300.jpg"),
+    link:
+      "https://www.youtube.com/watch?v=i4ssfhsOXQ4&list=PLBE7jgE02o_x7TrpAz70iOkMC3amlUqMS"
+  },
+  {
+    title: "The Sons Play From Russia With Love!",
+    img: require("../../images/playlist_fromRussiaWithLove_600x300.jpg"),
+    link:
+      "https://www.youtube.com/watch?v=ms0YAhtPRjw&index=4&list=PLBE7jgE02o_wSEPE0-IppLV7mhVm_5e4H"
+  },
+  {
+    title: "The Sons Play Zelda: Ocarina of Time!",
+    img: require("../../images/playlist_ocarinaOfTime_600x300.jpg"),
+    link:
+      "https://www.youtube.com/watch?v=Xm9Fws7OCfc&list=PLBE7jgE02o_wRolStmjm_FXS8HWUhnoq5"
   }
 ];
