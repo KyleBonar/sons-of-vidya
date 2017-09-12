@@ -42,3 +42,9 @@ span.font-fancy,
 p.font-fancy {
   font-family: $fontFancy;
 }
+
+
+a {
+  text-decoration: none;
+  color: $textPrimary;
+}
