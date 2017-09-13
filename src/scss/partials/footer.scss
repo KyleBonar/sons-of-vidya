@@ -1,0 +1,8 @@
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: url(http://localhost:8080/src/images/panal_teal_500x280.png);
+  background-color: $tealDark;
+}
