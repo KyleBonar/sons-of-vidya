@@ -31,12 +31,13 @@ class Playlist extends Component {
               key={index}
             />
           ))}
+        </div>
+        <div className="extra">
           <Button
             link="https://www.youtube.com/user/SonsOfVidya/playlists"
             text="See All Playlists"
           />
         </div>
-        <div className="extra" />
       </section>
     );
   }
