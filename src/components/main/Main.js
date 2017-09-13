@@ -7,6 +7,7 @@ import Header from "../header/Header";
 import Featured from "../featured/Featured";
 import Programs from "../programs/Programs"
 import Playlist from "../playlist/Playlist";
+import Footer from "../footer/Footer";
 
 class Main extends Component {
   render() {
@@ -19,6 +20,7 @@ class Main extends Component {
         <Featured />
         <Programs />
         <Playlist />
+        <Footer />
       </div>
     );
   }
