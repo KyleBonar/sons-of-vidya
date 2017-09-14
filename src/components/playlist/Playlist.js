@@ -7,9 +7,9 @@ import Button from "../button/Button";
 class Item extends Component {
   render() {
     return (
-      <div>
-        <a href={this.props.link} target="_blank">
-          <img src={this.props.img} />
+      <div className="playlist-item">
+        <a href={this.props.link} target="_blank" >
+          <img src={this.props.img} className="playlist-img"/>
           <span className="font-primary video-title">{this.props.title}</span>
         </a>
       </div>
