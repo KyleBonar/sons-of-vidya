@@ -5,7 +5,7 @@ import {SocialButtons} from '../socialButtons/SocialButtons'
 class Rights extends Component {
   render() {
     return(
-      <div className="rights">
+      <div className="rights font-primary">
         2017, All Rights Reserved
       </div>
     )
