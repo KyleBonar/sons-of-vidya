@@ -14,8 +14,11 @@
     width: 100%;
     margin-top: 25px;
 
-    div {
-      margin: 10px 0px;
+    .playlist-item {
+      max-width: 50%;
+      box-sizing: border-box;
+      padding: 10px 10px;
+      // margin: 10px 0px;
       a {
         display: flex;
         flex-direction: column;

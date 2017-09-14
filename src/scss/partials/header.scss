@@ -2,52 +2,105 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 160px;
-  // background: url(http://localhost:8080/src/images/header_1280x160.png);
-  background: url(http://localhost:8080/src/images/header_v2.png);
+  height: auto;
+  background: url(http://localhost:8080/src/images/panal_teal_500x280.png);
   background-color: $tealDark;
   border-bottom: 15px solid $tealDark;
 
+  @media (min-width: $breakForSm) {
+    height: 160px;
+  }
+
+  @media (min-width: $breakForMd) {
+    background: url(http://localhost:8080/src/images/header_v2.png);
+    background-color: $tealDark;
+  }
+
   .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     max-height: 100%;
 
+    @media (min-width: $breakForSm) {
+      flex-direction: row;
+    }
+
     #nav-logo {
-      width: 25%;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
+      display: block;
+
+      @media (min-width: $breakForSm) {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        min-width: 238px;
+      }
     }
 
     #nav-center {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      display: block;
+      text-align: center;
+
+      @media (min-width: $breakForSm) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      @media (min-width: $breakForMd) {
+        justify-content: space-between;
+      }
 
       span {
+        display: block;
         margin: 15px 0px;
         color: $lightTan;
         font-size: 18px;
         font-family: $fontPrimary;
 
+        @media (min-width: $breakForSm) {
+          margin: 0px;
+        }
+
+        @media (min-width: $breakForMd) {
+          margin: 15px 0px;
+        }
+
         ~ span {
-          font-size: 24px;
+          font-size: 18px;
+
+          @media (min-width: 881px) {
+            font-size: 24px;
+          }
         }
       }
     }
 
     #nav-social {
-      width: 25%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
+      display: block;
 
-      .social-link {
-        width: 60px;
+      @media (min-width: $breakForSm) {
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .social-item {
+        flex-basis: 50%;
+        text-align: center;
+
+        @media (min-width: 986px) {
+          flex-basis: auto;
+        }
+        .social-img {
+          width: 60px;
+        }
       }
     }
   }

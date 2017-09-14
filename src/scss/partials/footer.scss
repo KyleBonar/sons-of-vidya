@@ -5,4 +5,27 @@
   align-items: center;
   background: url(http://localhost:8080/src/images/panal_teal_500x280.png);
   background-color: $tealDark;
+  color: $lightTan;
+
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px 0px;
+
+    .rights {
+      font-size: 20px;
+    }
+
+    #footer-social {
+      display: flex;
+      justify-content: space-around;
+
+      a img {
+        width: 60px;
+        margin: 10px;
+      }
+    }
+  }
 }

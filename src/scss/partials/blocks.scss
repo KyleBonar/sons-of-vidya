@@ -32,17 +32,21 @@
   .container {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 
     .block {
       flex-grow: 1;
       display: flex;
       justify-content: center;
-      padding: 25px 15px;
+      padding: 10px 15px;
+      @media (min-width: $breakForMd) {
+        padding: 25px 15px;
+      }
 
       .the-difference {
         width: 250px;
+        min-height: 250px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -53,5 +57,10 @@
         }
       }
     }
+
+      @media (min-width: $breakForMd) {
+        flex-direction: row;
+      }
+
   }
 }

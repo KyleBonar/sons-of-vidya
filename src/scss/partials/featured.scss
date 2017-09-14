@@ -7,10 +7,14 @@
 
    .content {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-self: auto;
     justify-content: space-around;
     width: 100%;
+    @media (min-width: $breakForMd) {
+      flex-direction: row;
+      align-items: center;
+    }
 
     .latest-holder {
       padding: 15px;
@@ -34,13 +38,22 @@
       }
 
       .video-holder {
-        align-self: stretch;
+        align-self: auto;
+        width: 100%;
+        @media (min-width: $breakForMd) {
+          align-self: stretch;
+        }
 
         iframe {
           border: 0px;
           width: 100%;
-          height: 30vw;
+          height: 100vw;
           max-height: 480px;
+
+          @media (min-width: $breakForMd) {
+
+            height: 30vw
+          }
         }
       }
     }
