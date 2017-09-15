@@ -11,6 +11,7 @@
     align-self: auto;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 25px;
     @media (min-width: $breakForMd) {
       flex-direction: row;
       align-items: center;
