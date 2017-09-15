@@ -1,25 +1,21 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
-import {SocialButtons} from '../socialButtons/SocialButtons'
+import SocialButtons from "../socialButtons/SocialButtons";
 
-class Rights extends Component {
-  render() {
-    return(
-      <div className="rights font-primary">
-        2017, All Rights Reserved
-      </div>
-    )
-  }
-}
+const Rights = () => {
+  return <div className="rights font-primary">2017, All Rights Reserved</div>;
+};
 
 class Footer extends Component {
   render() {
-    return( <section id="footer">
-      <div className="container">
-        <Rights />
-        <SocialButtons id="footer-social"/>
-      </div>
-    </section>)
+    return (
+      <section id="footer">
+        <div className="container">
+          <Rights />
+          <SocialButtons id="footer-social" />
+        </div>
+      </section>
+    );
   }
 }
 

@@ -1,21 +1,26 @@
 import React, { Component } from "react";
+import PropType from "prop-types";
 
 import SectionTitles from "../sectionTitles/SectionTitles";
 import PlaylistItems from "./PlaylistItems";
 import Button from "../button/Button";
 
-class Item extends Component {
-  render() {
-    return (
-      <div className="playlist-item">
-        <a href={this.props.link} target="_blank" >
-          <img src={this.props.img} className="playlist-img"/>
-          <span className="font-primary video-title">{this.props.title}</span>
-        </a>
-      </div>
-    );
-  }
-}
+const Item = ({ link, img, title }) => {
+  return (
+    <div className="playlist-item">
+      <a href={link} target="_blank">
+        <img src={img} className="playlist-img" />
+        <span className="font-primary video-title">{title}</span>
+      </a>
+    </div>
+  );
+};
+
+Item.propTypes = {
+  link: PropType.string.isRequired,
+  img: PropType.string.isRequired,
+  title: PropType.string.isRequired
+};
 
 class Playlist extends Component {
   render() {

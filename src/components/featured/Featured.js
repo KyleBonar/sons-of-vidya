@@ -1,31 +1,28 @@
 import React, { Component } from "react";
 import axios from "axios";
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 
 import SectionTitles from "../sectionTitles/SectionTitles";
 
-class GetVideo extends Component {
-  render() {
-    return (
-      <div className="latest-holder">
-        <span>{this.props.title}</span>
-        <div className="video-holder">
-          <iframe
-            id="ytplayer"
-            type="text/html"
-            src={`https://www.youtube.com/embed/${this.props
-              .videoID}?autoplay=0`}
-            frameBorder="0"
-          />
-        </div>
+const GetVideo = ({ title, videoID }) => {
+  return (
+    <div className="latest-holder">
+      <span>{title}</span>
+      <div className="video-holder">
+        <iframe
+          type="text/html"
+          src={`https://www.youtube.com/embed/${videoID}?autoplay=0`}
+          frameBorder="0"
+        />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
 GetVideo.propTypes = {
   title: PropTypes.string.isRequired,
   videoID: PropTypes.string.isRequired
-}
+};
 
 class Featured extends Component {
   constructor(props) {
