@@ -32,7 +32,7 @@ class Featured extends Component {
       key: "AIzaSyALj1_1OHf-JhgtvZhl4xbKaY0A7GcjNd4",
       channelID: "UC7Lef3r2J8uA5PidtcOC3fQ",
       latestVideoID: "",
-      sonsPickVideoID: "",
+      sonsPickVideoID: "d7WPwMDRCic",
       defaultVideoID: "u2lMI37CIk0"
     };
 
