@@ -11,7 +11,7 @@
 
   #referrals {
     display: flex;
-    flex-grow: 1;
+    flex-basis: 50%;
     flex-direction: column;
     align-items: center;
     background: url(http://localhost:8080/src/images/panal_teal_500x280.png);
@@ -23,7 +23,7 @@
 
   #rewards {
     display: flex;
-    flex-grow: 1;
+    flex-basis: 50%;
     flex-direction: column;
     align-items: center;
     background: url(http://localhost:8080/src/images/panal_orange_500x280.png);
