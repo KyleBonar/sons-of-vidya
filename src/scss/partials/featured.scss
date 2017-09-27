@@ -5,13 +5,14 @@
   align-items: center;
   padding: 24px 0px;
 
-   .content {
+  .content {
     display: flex;
     flex-direction: column;
     align-self: auto;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     margin-bottom: 25px;
+
     @media (min-width: $breakForMd) {
       flex-direction: row;
       align-items: center;
@@ -22,7 +23,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      flex-grow: 1;
+      flex-basis: 50%;
+      position: relative;
 
       span {
         font-family: $contarell;
@@ -39,22 +41,18 @@
       }
 
       .video-holder {
-        align-self: auto;
         width: 100%;
-        @media (min-width: $breakForMd) {
-          align-self: stretch;
-        }
+        display: flex;
+        position: relative;
+        padding-top: 57%;
 
         iframe {
           border: 0px;
           width: 100%;
-          height: 65vw;
-          max-height: 480px;
-
-          @media (min-width: $breakForMd) {
-
-            height: 30vw
-          }
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
         }
       }
     }
