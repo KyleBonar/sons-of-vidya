@@ -35,8 +35,10 @@
 
   .programContainer {
     margin: 30px 0px;
+    max-width: 250px;
     @media (min-width: $breakForMd) {
-      margin: 55px 10% 70px;
+      margin: 55px 10%;
+      
     }
 
     p {
