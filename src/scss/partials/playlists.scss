@@ -9,10 +9,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 25px;
+    @media (min-width: $breakForMd) {
+      margin-top: 24px;
+    }
 
     .playlist-item {
       max-width: 100%;
@@ -28,11 +30,15 @@
         justify-content: flex-start;
         color: $orange;
         font-size: 20px;
-
-        &:hover,
+                &:hover,
         &:focus {
           color: $teal;
         }
+
+        .playlist-img {
+          width: 100%;
+        }
+
       }
     }
   }
