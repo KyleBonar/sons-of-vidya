@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Cantarell";
-  src: url("http://localhost:8080/src/fonts/Cantarell-Regular.ttf");
+  src: url("./../../fonts/Cantarell-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Marketing";
-  src: url("http://localhost:8080/src/fonts/MarketingScript.ttf");
+  src: url("./../../fonts/MarketingScript.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ThirstyScript";
-  src: url("http://localhost:8080/src/fonts/ThirstyScriptMedium.otf");
+  src: url("./../../fonts/ThirstyScriptMedium.otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -46,7 +46,6 @@ span.font-fancy,
 p.font-fancy {
   font-family: $fontFancy;
 }
-
 
 a {
   text-decoration: none;

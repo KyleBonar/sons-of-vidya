@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   justify-content: center;
   height: auto;
-  background: url(http://localhost:8080/src/images/panal_teal_500x280.png);
+  background: url(./../../images/panal_teal_500x280.png);
   background-color: $tealDark;
   border-bottom: 15px solid $tealDark;
 
@@ -12,7 +12,7 @@ header {
   }
 
   @media (min-width: $breakForMd) {
-    background: url(http://localhost:8080/src/images/header_v2.png);
+    background: url(./../../images/header_v2.png);
     background-color: $tealDark;
   }
 
