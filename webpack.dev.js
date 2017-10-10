@@ -28,13 +28,13 @@ const scss = {
   test: /\.scss$/,
   use: ExtractTextPlugin.extract({
     fallback: "style-loader",
-    use: ["css-loader", "sass-loader"],
+    use: ["css-loader", "resolve-url-loader", "sass-loader?sourceMap"],
     publicPath: "/"
   })
 };
 
 const fonts = {
-  test: /\.(eot|svg|ttf|woff|woff2)$/,
+  test: /\.(eot|otf|svg|ttf|woff|woff2)$/,
   use: {
     loader: "file-loader",
     options: {
@@ -45,7 +45,7 @@ const fonts = {
 };
 
 module.exports = {
-  devtool: 'eval-cheap-module-source-map',
+  devtool: "eval-cheap-module-source-map",
   entry: "./src/index.js",
   devServer: {
     port: 8080,
@@ -67,6 +67,6 @@ module.exports = {
       filename: "index.html",
       inject: "body"
     }),
-    new ExtractTextPlugin('style.css')
+    new ExtractTextPlugin("style.css")
   ]
 };
