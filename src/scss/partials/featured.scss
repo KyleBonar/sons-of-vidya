@@ -42,9 +42,11 @@
 
       .video-holder {
         width: 100%;
-        display: flex;
         position: relative;
-        padding-top: 57%;
+
+        div {
+          padding-bottom: 57%;
+        }
 
         iframe {
           border: 0px;

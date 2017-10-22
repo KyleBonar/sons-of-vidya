@@ -9,11 +9,13 @@ const GetVideo = ({ title, videoID }) => {
     <div className="latest-holder">
       <span>{title}</span>
       <div className="video-holder">
-        <iframe
-          type="text/html"
-          src={`https://www.youtube.com/embed/${videoID}?autoplay=0`}
-          frameBorder="0"
-        />
+        <div>
+          <iframe
+            type="text/html"
+            src={`https://www.youtube.com/embed/${videoID}?autoplay=0`}
+            frameBorder="0"
+          />
+        </div>
       </div>
     </div>
   );
