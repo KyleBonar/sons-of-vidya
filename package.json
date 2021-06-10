@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --config webpack.dev.js",
     "prod": "webpack -p --config webpack.prod.js"
   },
-  "author": "Kyle Bonar",
+  "author": "Kyle Davis",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
