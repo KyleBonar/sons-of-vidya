@@ -8,7 +8,7 @@ const Content = () => {
       <span className="banner-center text-center">
         <img src={Stripes} />with<img src={Stripes} />
       </span>
-      <span className="banner-bottom text-center">Old Fashioned Funs</span>
+      <span className="b-bottom text-center">Old Fashioned Funs</span>
     </div>
   );
 };
